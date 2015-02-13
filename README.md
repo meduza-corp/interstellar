@@ -1,8 +1,12 @@
 This is a super simple small project to get reviews from google play store for your application to slack. (slack.com)
 
-https://support.google.com/googleplay/android-developer/answer/138230
+At the end you can expect to have something like that in your slack chat
 
-It is intended to work via cron, to get the daily review updates form google play store.
+![slack](https://raw.githubusercontent.com/meduza-corp/interstellar/master/slack_screenshot.jpg?token=AAyQJbZeASPCKj8YppJQFsOTtR8FLUeDks5U5ysrwA%3D%3D)
+
+About: https://support.google.com/googleplay/android-developer/answer/138230
+
+It is intended to work via cron, to get daily review updates form google play store.
 
 ### Configuration
 To use it you need to do some basic configuration:
