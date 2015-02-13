@@ -9,7 +9,7 @@ CONFIG = YAML.load_file('./secrets/secrets.yml')
 date = Date.today-2
 
 file_date = date.strftime("%Y%m")
-csv_file_name = "#{CONFIG["app_name"]}_#{file_date}.csv"
+csv_file_name = "#{CONFIG["package_name"]}_#{file_date}.csv"
 
 system "BOTO_PATH=./secrets/.boto gsutil/gsutil cp -r gs://#{CONFIG["app_repo"]}/reviews/#{csv_file_name} ."
 
