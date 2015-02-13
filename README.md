@@ -6,7 +6,7 @@ At the end you can expect to have something like that in your slack chat
 
 About: https://support.google.com/googleplay/android-developer/answer/138230
 
-It is intended to work via cron, to get the daily review updates form google play store.
+It is intended to work via cron, to get daily review updates form google play store.
 
 ### Configuration
 To use it you need to do some basic configuration:
