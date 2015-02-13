@@ -2,8 +2,9 @@ This is a super simple small project to get reviews from google play store for y
 
 https://support.google.com/googleplay/android-developer/answer/138230
 
-It is intended to work via cron, to get the dayly review updates form google play store.
+It is intended to work via cron, to get the daily review updates form google play store.
 
+### Configuration
 To use it you need to do some basic configuration:
 first - create a file secrets/secrets.yml, (there is a secrets/secrets.yml.example)
 You need to provide your app name in google play, the private repo, where google stores the csv with reviews and a slack incoming webhook url.
