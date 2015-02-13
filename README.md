@@ -13,9 +13,15 @@ It is intended to be fired once a day via cron.
 ## Why do we need it
 Monitoring Google Play reviews is a must for a responsible Android developer.
 
+Going every morning to the webpage, finding what's the last you've already answered does not sound like a 2015-thing.
+
 Users treat Google Play reviews as a way to seek for support.
 
-Although you have only one hit — consecutive edits of *your* reply won’t be emailed to the user as the first one — it helps a lot in troubleshooting, especially given the range of different devices and OS versions on the market.
+Remember, you have only one hit. Only your first reply is being emailed to the user. Consecutive edits of *your reply* won’t be emailed to the user as the first one. 
+
+Replies help a lot in troubleshooting, especially given the range of different devices and OS versions on the market.
+
+Plus, you want a good rating in the Google Play Store, right?
 
 ## Configuration
 
