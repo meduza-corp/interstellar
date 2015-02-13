@@ -1,4 +1,6 @@
-This is a super simple small project to get reviews from google play store for your application to slack.
+This is a super simple small project to get reviews from google play store for your application to slack. (slack.com)
+
+https://support.google.com/googleplay/android-developer/answer/138230
 
 It is intended to work via cron, to get the dayly review updates form google play store.
 
@@ -8,6 +10,8 @@ You need to provide your app name in google play, the private repo, where google
 
 You also need to configure gsutil (a python app, that can get the csv with reviews from google storage)
 
-You need to simply run ./gsutil and follow the steps. Once you do this, you will have a .boto file in your home dir, simply copy this file to the ./secrets folder and you are good to go.
+### Gsutil configuration 
+https://cloud.google.com/storage/docs/gsutil, https://github.com/GoogleCloudPlatform/gsutil
+You need to simply run gsutil/gsutil and follow the steps. Once you do this, you will have a .boto file in your home dir, simply copy this file to the ./secrets folder and you are good to go.
 
 It uses rest-client, so, install in via gem install rest-client
