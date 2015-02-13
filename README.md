@@ -3,13 +3,6 @@ Small ruby app to get reviews for you Google Play Store-released application to 
 
 ![slack](https://raw.githubusercontent.com/meduza-corp/interstellar/master/slack_screenshot.jpg?token=AAyQJbZeASPCKj8YppJQFsOTtR8FLUeDks5U5ysrwA%3D%3D)
 
-## How it works
-Google Play [exports](https://support.google.com/googleplay/android-developer/answer/138230) all your app reviews once a day to the [Google Cloud Storage](https://cloud.google.com/storage/docs) bucket.
-
-_Interstellar_ downloads reviews via google-provided [gsutil](https://cloud.google.com/storage/docs/gsutil) tool and triggers [Slack incoming webhook](https://api.slack.com/incoming-webhooks) for all new or updated reviews.
-
-It is intended to be fired once a day via cron.
-
 ## Why do we need it
 Monitoring Google Play reviews is a must for a responsible Android developer.
 
@@ -22,6 +15,13 @@ Remember, you have only one hit. Only your first reply is being emailed to the u
 Replies help a lot in troubleshooting, especially given the range of different devices and OS versions on the market.
 
 Plus, you want a good rating in the Google Play Store, right?
+
+## How it works
+Google Play [exports](https://support.google.com/googleplay/android-developer/answer/138230) all your app reviews once a day to the [Google Cloud Storage](https://cloud.google.com/storage/docs) bucket.
+
+_Interstellar_ downloads reviews via google-provided [gsutil](https://cloud.google.com/storage/docs/gsutil) tool and triggers [Slack incoming webhook](https://api.slack.com/incoming-webhooks) for all new or updated reviews.
+
+It is intended to be fired once a day via cron.
 
 ## Configuration
 
