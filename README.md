@@ -1,6 +1,5 @@
-This is a super simple ruby app to get reviews for you Google Play Store-released application to the Slack channel.
-
-At the end you can expect to have something like that in your slack chat
+# Interstellar
+Small ruby app to get reviews for you Google Play Store-released application to the Slack channel.
 
 ![slack](https://raw.githubusercontent.com/meduza-corp/interstellar/master/slack_screenshot.jpg?token=AAyQJbZeASPCKj8YppJQFsOTtR8FLUeDks5U5ysrwA%3D%3D)
 
