@@ -10,7 +10,7 @@ Going every morning to the webpage, finding what's the last you've already answe
 
 Users treat Google Play reviews as a way to seek for support.
 
-Remember, you have only one hit. Only your first reply is being emailed to the user. Consecutive edits of *your reply* won’t be emailed to the user as the first one. 
+Remember, you have only one hit. Only your first reply is being emailed to the user. Consecutive edits of *your reply* won’t be emailed to the user as the first one.
 
 Replies help a lot in troubleshooting, especially given the range of different devices and OS versions on the market.
 
@@ -36,10 +36,10 @@ It is intended to be fired once a day via cron.
 
 3. `gem install rest-client`
 
-### Gsutil configuration 
-1. Run `gsutil/gsutil` and follow the steps. 
-2. Once done, there will be a .boto file in your home dir. 
-3. Copy this file to the ./secrets folder and you are good to go. 
+### Gsutil configuration
+1. Run `gsutil/gsutil config` and follow the steps.
+2. Once done, there will be a .boto file in your home dir.
+3. Copy this file to the ./secrets folder and you are good to go.
 
 You can always get the latest gsutil(https://cloud.google.com/storage/docs/gsutil_install) and change this line
 `system “BOTO_PATH=./secrets/.boto gsutil/gsutil cp -r gs://#{CONFIG[“app_repo”]}/reviews/#{csv_file_name} .”`
