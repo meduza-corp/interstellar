@@ -77,8 +77,10 @@ class Review
              "subdate: #{submitted_at.strftime("%d.%m.%Y at %I:%M%p")}"
            end
 
+    stars = rate.times.map{"★"}.join + (5 - rate).times.map{"☆"}.join
+
     [
-      "\n\n~~~ #{rate.times.map{"★"}.join("")} ~~~ ",
+      "\n\n#{stars}",
       "Version: #{version} | #{date}",
       "#{[title, text].join(" ")}",
       "<#{url}|Ответить в Google play>"
