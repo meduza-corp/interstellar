@@ -1,3 +1,6 @@
+# notice
+Unfortunatly I can no longer support this project. 
+
 # Interstellar
 Small ruby app to get reviews for you Google Play Store-released application to the Slack channel.
 
