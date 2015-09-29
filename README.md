@@ -1,5 +1,5 @@
 # notice
-Unfortunatly I can no longer support this project. 
+Unfortunatly I can no longer support this project. We moved to [app follow](http://appfollow.ru) it supports google play and app store.
 
 # Interstellar
 Small ruby app to get reviews for you Google Play Store-released application to the Slack channel.
